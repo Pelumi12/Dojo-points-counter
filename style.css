@@ -1,0 +1,67 @@
+body{
+    background: url(photos/children5.jpg) no-repeat center;
+    background-size: 2000px;
+}
+
+
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+ .btndecrease, .btnincrease, .btnreset{ 
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.btndecrease{
+    margin-left: 420px;
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+#value{
+    font-size: 50px;
+    margin-left: 640px;
+    color: red;
+}
+
+#childname{
+    font-size: 50px;
+    color: green;
+    margin-left: 500px;
+    background-color: aliceblue;
+    width: fit-content;
+    border-radius: 10px;
+ 
+}
+
+.enterbtn, input{
+    font-size: 30px;
+    
+}
+
+button {
+    background-color: yellow;
+    border: 1px solid white;
+}
+
+.btnreset, #reset{
+    background-color: white;
+}
+
+
+footer{
+    margin-top: 200px;
+    margin-left: 550px;
+}
